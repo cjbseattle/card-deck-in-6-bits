@@ -1,1 +1,33 @@
-please put some code here
+Full deck of cards (excluding jokers) in 6 bits:
+
+Bits 1-2 - Suit:
+00 - Spades
+01 - Hearts
+10 - Diamonds
+11 - Clubs
+
+Bit 3 - Row of table:
+0 - First row
+1 - Second row
+
+Bits 4-6 - Column of table
+000 - First row: Ace, Second row: Nine
+001 - First row: Two, Second row: Ten
+010 - First row: Three, Second row: Jack
+011 - First row: Four, Second row: Queen
+100 - First row: Five, Second row: King
+101 - First row: Six, Second row: NONE
+110 - First row: Seven, Second row: NONE
+111 - First row: Eight, Second row: NONE
+
+Examples:
+
+001010 - Jack of Spades:
+00 - Spades
+1 - Second row
+010 - Jack
+
+110100 - Five of Clubs
+11 - Clubs
+0 - First row
+100 - Five
