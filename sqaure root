@@ -1,0 +1,7 @@
+Python
+
+import numpy as np
+
+array = np.array([4, 9, 16])
+square_roots_array = np.sqrt(array)
+print(square_roots_array)
